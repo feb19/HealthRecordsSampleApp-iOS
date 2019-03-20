@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>医療データを取得して表示します。</string>
+	<key>NSHealthRequiredReadAuthorizationTypeIdentifiers</key>
+	<array>
+		<string>HKClinicalTypeIdentifierAllergyRecord</string>
+		<string>HKClinicalTypeIdentifierConditionRecord</string>
+		<string>HKClinicalTypeIdentifierImmunizationRecord</string>
+	</array>
 </dict>
 </plist>
